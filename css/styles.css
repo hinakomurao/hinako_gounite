@@ -1,0 +1,563 @@
+
+body{
+  margin: 0;
+}
+
+/* ここからヘッダー */
+
+header{
+  display: flex;
+  height: 70px;
+  width: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 160px 0 150px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.header-logo{
+  display: flex;
+  font-size: 12px;
+  float: left;
+}
+
+.header-logo img{
+  height: 70px;
+  width: 220px;
+}
+
+.header-logo p{
+  margin: 0;
+}
+
+.logo-text{
+  margin: auto 0 auto 20px;
+  height: 36px;
+}
+
+.menu{
+  display: flex;
+  margin: 8px 0 0 auto;
+  font-size: 14px;
+}
+
+.menu p, .menu img{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mail{
+  margin-left: 20px;
+  height: 14px;
+}
+
+li{
+  list-style: none;
+  display: flex;
+}
+
+li p{
+  margin-left: 5px;
+}
+
+li img{
+  height:18px ;
+  width:20px ;
+}
+
+
+/* ここからボタン */
+.SNS{
+  position: fixed;
+  top: 40%;
+}
+
+.SNS p{
+  transform: rotate(-90deg);
+  font-weight: 700;
+}
+
+.SNS img{
+ display: inline-block;
+ margin: 5px auto 0 14px;
+}
+
+.signin-btn p{
+  writing-mode: vertical-lr;
+  padding: 40px 20px 40px 10px;
+  color: white;
+  border-radius: 10px;
+  margin: 4px 0;
+}
+
+.btn-login{
+  background-color: #0083CD;
+}
+
+.btn-signup{
+  background-color: #20AEE5;
+}
+
+.signin-btn{
+  float: right;
+  position: fixed;
+  top: 30%;
+  left: 97%;
+}
+
+
+/* ここからトップ */
+.top-wrapper{
+  margin-bottom: 115px;
+}
+
+.top-contents{
+  display: flex;
+  margin: 10px 0 10px 150px;
+}
+
+.top-contents p{
+  margin:16px 4px;
+  font-size: 12px;
+}
+
+.top-btn{
+  border: solid;
+  width: 55px;
+  height: 17px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.what-btn{
+  text-align:center;
+  border-radius: 12px;
+  background-color:#EBEBEB;
+  width: 144px;
+}
+
+.whats-one{
+  height: 350px;
+}
+
+.whats-one img{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.whats-one h1, .whats-one p{
+  text-align: center;
+  position: relative;
+  bottom: 240px;
+  margin: 0;
+}
+
+.whats-one h1{
+  font-size: 68px;
+  font-weight: 600;
+  height: 82px;
+  font-weight: 600;
+}
+
+.whats-one p{
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.container li{
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  width: 240px;
+  height: 50px;
+  font-weight: 700;
+  margin: 100px 10px 100px 10px;
+  border: solid;
+  border-radius: 50px;
+  line-height: 50px;
+}
+
+.container{
+  text-align: center;
+}
+
+.open h1{
+  text-align: center;
+  font-size: 80px;
+  margin: 30px 0 0 0;
+}
+
+.open p{
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.open img{
+  display: block;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.top-text h2{
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+}
+
+.top-text p{
+  width: 700px;
+  margin: 45px auto 0 auto;
+  font-weight: 600;
+}
+
+/* ココからメイン */
+.main-content h1{
+  text-align: center;
+  font-size: 43px;
+  padding: 90px 0 0 0;
+  margin: 0;
+  font-weight: 500;
+  display: block;
+}
+
+.content-explanation{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.oneid-img{
+  width: 500px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.oneid-text{
+  display: inline-block;
+  width: 450px;
+  position: relative;
+  bottom: 290px;
+  padding: 30px 30px 0 0;
+}
+
+.oneid-container{
+  text-align: center;
+  height: 468.7px;
+}
+
+.main-content-first{
+  background-color: #F6F9F9;
+}
+
+.merrit-container{
+  height: 550"px;
+}
+
+.merrit-container h2{
+  color: #008BCF;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.merrit-box{
+  float: left;
+  width: 308px;
+  text-align: center;
+  height: 300px;
+  margin: 60px 15px 0 15px;
+  border: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: #008BCF;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.merrit-text{
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 30px;
+  position: relative;
+  bottom: 30px;
+}
+
+.merrit-boxes{
+  width: 1050px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.merrit-number{
+  color: #008BCF;
+  font-size: 32px;
+  margin: 0 0 32px 0;
+  position: relative;
+  bottom: 30px;
+}
+
+.merrit-box img{
+  width: 80px;
+  position: relative;
+  bottom: 40px;
+  padding: 5px;
+}
+
+.flow-explanation{
+  margin: 55px 0;
+}
+
+.flow-number{
+  color: #008BCF;
+  font-size: 32px;
+}
+
+.flow-box{
+  float: left;
+  width: 250px;
+  text-align: center;
+}
+
+.flow-boxes{
+  margin: 0 auto;
+  width: 1000px;
+  height: 700px;
+}
+
+.flow-box img{
+  width: 180px;
+}
+
+.flow-arrows{
+  letter-spacing: 210px;
+  text-align: center;
+  color: #008BCF;
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 210px;
+  position: relative;
+  bottom:350px;
+}
+
+.flow-box h2{
+  font-size: 20px;
+  color: #008BCF;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.flow-box-text{
+  font-size: 14px;
+  text-align: left;
+  width: 215px;
+  margin-left: 30px;
+}
+
+.service{
+  padding-left: 230px;
+}
+
+.service p{
+  width: 950px;
+  padding: 40px;
+  background-color: #F6F9F9;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.use-explanation{
+  margin: 55px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.use-number{
+  color: #008BCF;
+  font-size: 32px;
+}
+
+.use-box{
+  float: left;
+  width: 333px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.use-boxes{
+  margin: 0 auto;
+  width: 1059px;
+  height: 600px;
+}
+
+.use-box img{
+  width: 290px;
+}
+
+.use-arrows{
+  letter-spacing: 305px;
+  color: #008BCF;
+  font-size: 45px;
+  font-weight: 800;
+  position: relative;
+  bottom:270px;
+  right: 25px;
+}
+
+.use-box h2{
+  font-size: 20px;
+  color: #008BCF;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.use-box-text{
+  font-size: 13px;
+  text-align: left;
+  width: 282px;
+  margin-left: 30px;
+}
+
+.ques{
+  font-size: 13px;
+  width: 240px;
+  height: 50px;
+  font-weight: 700;
+  border: solid;
+  border-radius: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 8px 20px;
+}
+
+.ques p{
+  margin: 0 10px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+
+.ques img{
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.phone-img{
+  position: relative;
+  left: 150px;
+}
+
+.dot-img{
+  position: relative;
+  right: 470px;
+  display: inline-block;
+}
+
+.sign-up{
+  background-color: #F9F9F6;
+  margin-top: 40px;
+  height: 371px;
+}
+
+.sign-up h1{
+  float: right;
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  right: 180px;
+}
+
+.signup-btn{
+  font-size: 13px;
+  height: 50px;
+  width: 260px;
+  font-weight: 700;
+  border: solid;
+  border-radius: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 30px;
+  background-color: #3AB8E8;
+  color: white;
+  position: relative;
+  left: 360px;
+  bottom: 140px;
+}
+
+.signup-btn h2{
+  display: inline-block;
+  margin: 0;
+}
+
+.signup-btn p{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.btn-top{
+  font-size: 13px;
+  width: 240px;
+  height: 50px;
+  font-weight: 700;
+  background-color: #4B575D;
+  color:white;
+  border-radius: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 60px auto;
+  padding: 8px 20px;
+}
+
+.btn-top p{
+  margin: 0 0 0 50px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-top h2{
+  display: inline-block;
+  margin: 0 0 0 50px;
+  font-size: 14px;
+}
+
+.service-wrapper img{
+  width: 24%;
+}
+
+.service-wrapper{
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.logo-foot img{
+  width: 230px;
+}
+
+.logo-foot{
+  text-align: center;
+}
+
+footer{
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer-text p{
+  display: inline-block;
+  margin: 35px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.copyright{
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
